@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    border: 1px solid white;
+
+}
+#cabeçalho{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    padding: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#areaimagem{
+    height: 200px;
+    background-color:aqua;
+
+}
+.fontebranco{
+    color: white;
+
+}
+.fundoazul{
+    color: black;
+}
+#areaduascaixas{
+    height: 300px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#caixaesquerda{
+    background-color: pink;
+}
+#caixadireita{
+    background-color: purple;
+}
+#areatrescaixas{
+    height: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    width: 25%;
+    height: 200px;
+    border: 1px solid white;
+}
+#rodape{
+    height: 300px;
+    background-color: lightsalmon;
+}
